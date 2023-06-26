@@ -5,6 +5,9 @@
  */
 
 public class ProblemTwo {
+
+
+
     static void run() {
         int sumOfEvens = 2
         int firstNum = 1
@@ -27,5 +30,9 @@ public class ProblemTwo {
 
     static boolean isEven (int num) {
         return (num.mod(2) == 0)
+    }
+
+    void recursionTest(ProblemTwo pt) {
+
     }
 }
